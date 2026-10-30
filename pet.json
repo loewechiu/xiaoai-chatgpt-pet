@@ -1,0 +1,177 @@
+{
+  "name": "小爱",
+  "version": "1.0.0",
+  "description": "非官方小爱同学 Q 版 ChatGPT Pet；所有动作统一 MI 胸口标记。",
+  "share_url": "https://chatgpt.com/s/sharepet_6ae4cc0cf2388191977d3076414dfa8d",
+  "spriteVersionNumber": 2,
+  "spritesheet": "spritesheet.png",
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "requiredFrames": 73
+  },
+  "states": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frames": 6,
+      "durationsMs": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "displayName": "待机眨眼"
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frames": 8,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "displayName": "向右奔跑"
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frames": 8,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "displayName": "向左奔跑"
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frames": 4,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "displayName": "挥手"
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frames": 5,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "displayName": "原地比耶与眨眼"
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frames": 8,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "displayName": "歪头挠头"
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frames": 6,
+      "durationsMs": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "displayName": "等待输入"
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frames": 6,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "displayName": "思考与处理任务"
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frames": 6,
+      "durationsMs": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "displayName": "检查后点赞"
+    }
+  ],
+  "lookDirections": {
+    "row9": [
+      0,
+      22.5,
+      45,
+      67.5,
+      90,
+      112.5,
+      135,
+      157.5
+    ],
+    "row10": [
+      180,
+      202.5,
+      225,
+      247.5,
+      270,
+      292.5,
+      315,
+      337.5
+    ],
+    "coordinates": "Clockwise from up in viewer coordinates"
+  },
+  "notes": [
+    "Row 4 retains the jumping slot name but intentionally plays a grounded V sign.",
+    "Manifest documents this asset and is not a universal installer.",
+    "MI emblem is naturally occluded where hands cover the chest."
+  ],
+  "rights": "Unofficial fan artwork; character and trademarks belong to their respective rights holders; no commercial rights to underlying character or marks granted."
+}
